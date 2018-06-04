@@ -2,5 +2,7 @@ bootstrap:docker
 From:centos:6
 
 %post
-mkdir -p /home1 /work /scratch
+mkdir /home1
+mkdir /work
+mkdir /scratch
 
