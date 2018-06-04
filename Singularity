@@ -1,6 +1,6 @@
-BootStrap:docker
-From:rynge/osgvo:el6
+bootstrap:docker
+From:centos:6
 
 %post
-mkdir /home1 /work /scratch
+mkdir -p /home1 /work /scratch
 
